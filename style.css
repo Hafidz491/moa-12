@@ -5,6 +5,34 @@
 }
 
 body {
-  background-color: black;
+  background-color: #202124;
+  color: white;
+}
+
+.glass-navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(38, 40, 46, 0.8);
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 90%;
+  margin: 20px auto 0 auto;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: #bbb;
+}
+
+.nav-link {
+  color: #bbb;
+  margin-right: 20px;
+}
+
+.nav-link:hover {
   color: white;
 }
